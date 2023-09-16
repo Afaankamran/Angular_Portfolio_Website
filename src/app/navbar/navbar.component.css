@@ -1,0 +1,64 @@
+.navbar-brand{
+    color: whitesmoke;
+    font-size: 250%;
+    padding-left:2.8% ;
+}
+
+
+ul {
+    background-color: transparent;
+}
+
+
+ul li a{
+    color:whitesmoke;
+    font-size: 140%;
+    position: relative;
+
+ 
+}
+ul li a::before {
+    content: "";
+    position: absolute;
+    bottom: -2px; 
+    left: 0;
+    width: 0;
+    height: 3px; 
+    background-color: aqua;
+    transition: width 0.3s ease;
+}
+
+ul li a:hover{
+    color:aqua;
+  
+}
+ul li a:hover::before {
+    width: 100%; /* Expand the line to 100% width on hover */
+}
+
+
+.navbar-toggler{
+    background-color: whitesmoke;
+   
+}
+
+
+.navbar-nav{
+    padding-right:14%;
+   gap: 5%;
+}
+
+.navbar{
+    background-color: #3B3B3B;
+
+
+}
+
+
+@media (max-width:576px) {
+    .navbar-brand{
+      
+        padding-left:1.3% ;
+    }
+    
+}

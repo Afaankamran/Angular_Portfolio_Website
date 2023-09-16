@@ -1,0 +1,172 @@
+.custom-container {
+
+
+    color: whitesmoke;
+  }
+  
+.custom-heading{
+  color: whitesmoke;
+
+  margin-left: 56%;
+   
+}
+.content{
+  margin-left: 7%;
+}
+
+  .custom-heading  span{
+   
+    color: aqua;
+  }
+p{
+color: whitesmoke;
+text-align: left;
+margin-left: 55%;
+font-size: 110%;
+
+
+
+}
+
+
+h3{
+  color: whitesmoke;
+  margin-left: 55.5%;
+ 
+
+}
+
+
+.img{
+ float: left;
+
+ margin-top: -8%;
+
+
+
+}
+
+.img img{
+
+width: 100%;
+height: 100%;
+background-color: transparent;
+border-radius: 50%;
+position:relative;
+display: flex;
+justify-content: center;
+align-items: center;
+border: 5px solid white;
+object-fit: cover;
+max-width: 380px;
+transform: translatex(15%);
+background-color: aqua;
+
+
+
+}
+
+@media (max-width:576px) {
+  .img{
+    float: left;
+   
+    margin-top: -8%;
+   
+   
+   
+   }
+   
+   .img img{
+   
+   width: 100%;
+   height: 100%;
+   background-color: transparent;
+   border-radius: 50%;
+   position:relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: 5px solid white;
+   object-fit: cover;
+   max-width: 220px;
+   transform: translatex(15%);
+   background-color: aqua;
+   
+   
+   
+   }
+}
+
+@media (max-width:414px) 
+{
+  .img{
+    float: left;
+   
+    margin-top: -8%;
+   
+   
+   
+   }
+   
+   .img img{
+   
+   width: 100%;
+   height: 100%;
+   background-color: transparent;
+   border-radius: 50%;
+   position:relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: 5px solid white;
+   object-fit: cover;
+   max-width: 180px;
+   transform: translatex(15%);
+   background-color: aqua;
+   
+   
+   
+   }
+
+
+  }
+
+
+  @media (max-width:375px) 
+{
+  .img{
+    float: left;
+   
+    margin-top: -8%;
+   
+   
+   
+   }
+   
+   .img img{
+   
+   width: 100%;
+   height: 100%;
+   background-color: transparent;
+   border-radius: 50%;
+   position:relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: 5px solid white;
+   object-fit: cover;
+   max-width: 160px;
+   transform: translatex(15%);
+   background-color: aqua;
+   
+   
+   
+   }
+
+
+  }
+
+
+
+
+

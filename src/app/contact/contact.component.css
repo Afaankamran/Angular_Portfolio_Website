@@ -1,0 +1,186 @@
+.container{
+    color: whitesmoke;
+
+    
+}
+span{
+    color: aqua;
+}
+
+  
+.custom-heading {
+    text-align: center; 
+    margin-bottom: 5%;
+ 
+  }
+
+  input{
+  
+   
+    background-color: #3B3B3B;
+    color: whitesmoke;
+    margin-left: 30%;
+   
+
+
+  }
+
+
+
+
+  #name{
+ 
+    width: 40%;
+    border: 2px solid aqua;
+  }
+
+  #number{
+
+
+    width: 40%;
+    border: 2px solid aqua;
+  }
+
+  #email{
+    width: 40%;
+  
+    border: 2px solid aqua;
+  }
+
+  #subject{
+    width: 40%;
+   
+
+    border: 2px solid aqua;
+  }
+
+  #msg{
+
+ 
+    width: 40%;
+
+    background-color: #3B3B3B;
+    color: whitesmoke;
+    margin-left: 30%;
+    border: 2px solid aqua;
+  }
+
+
+  
+.btn{
+  background-color: transparent;
+  color: aqua;
+  border: 2px solid aqua;
+  border-radius: 15px;
+  font-size: 130%;
+
+
+
+
+
+}
+
+.btn:hover{
+  background-color: aqua;
+  color:black;
+  border: 2px solid aqua;
+  border-radius: 15px;
+}
+
+
+a{
+  text-decoration: none;
+  color: aqua;
+  
+}
+
+a:hover{
+  color: black;
+}
+
+
+.name{
+  margin-left:30%;
+}
+
+.email{
+  margin-left:30%;
+}
+
+.number{
+  margin-left:30%;
+}
+
+.subject{
+  margin-left:30%;
+}
+
+.message{
+  margin-left:30%;
+}
+
+@media (max-width:576px){
+  #msg{
+
+ 
+    width: 80%;
+    margin-left: 10%;
+
+
+ 
+  }
+
+
+
+  #name{
+ 
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  #number{
+
+
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  #email{
+    width: 80%;
+    margin-left: 10%;
+
+  }
+
+  #subject{
+    width: 80%;
+    margin-left: 10%;
+
+ 
+  }
+
+
+  .name{
+    margin-left:10%;
+  }
+  
+  .email{
+    margin-left:10%;
+  }
+  
+  .number{
+    margin-left:10%;
+  }
+  
+  .subject{
+    margin-left:10%;
+  }
+  
+  .message{
+    margin-left:10%;
+  }
+
+
+
+
+}
+

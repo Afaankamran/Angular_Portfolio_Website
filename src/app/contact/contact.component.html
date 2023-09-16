@@ -1,0 +1,45 @@
+
+<div>
+  <p-toast></p-toast>
+<div class="container custom-container">
+    <h1 class="custom-heading">Contact <span>Me</span></h1>
+</div>
+
+  <form #list="ngForm" action="javascript:void(0);" [formGroup]="userform" (ngSubmit)="user()" >
+  <div class="mb-3">
+<input  type="text"  id="name" pInputText placeholder="Full Name" formControlName="from_name"/>
+<br>
+<span  class="name"   style="color: red;" *ngIf="from_name && from_name.invalid && from_name.touched">This field is required:</span>
+
+</div>
+  <div class="mb-3">
+
+    <input type="email" id="email" pInputText placeholder="Email Address" formControlName="from_email"/>
+    <br>
+    <span  class="email"  style="color: red;" *ngIf="from_email && from_email.invalid && from_email.touched">This field is required:</span>
+  </div>
+
+  <div class="mb-3">
+<input type="text" id="number" pInputText placeholder="Mobile Number" formControlName="number"/>
+<br>
+<span   class="number" style="color: red;" *ngIf="number && number.invalid && number.touched">This field is required:</span>
+</div>
+
+  <div class="mb-3">
+<input type="text" id="subject" pInputText placeholder="Email Subject" formControlName="subject"/>
+<br>
+<span class="subject"  style="color: red;" *ngIf="subject && subject.invalid && subject.touched">This field is required:</span>
+</div>
+
+  <div class="mb-3">
+  <textarea rows="5" cols="30" id="msg" placeholder="Your Message" pInputTextarea formControlName="message"></textarea>
+  
+  <br>
+  <span class="message"  style="color: red;" *ngIf="message && message.invalid && message.touched">This field is required:</span>
+</div>
+  <div class="d-flex justify-content-center">
+  <button [disabled]="list.invalid" type="submit" class="btn">Submit</button>
+</div>
+</form>
+</div>
+

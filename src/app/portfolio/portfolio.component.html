@@ -1,0 +1,130 @@
+<div class="container custom-container">
+    <h1 class="custom-heading">Latest <span>Project</span></h1>
+</div>
+<div class="row custom-row">
+  <div class="col-md-4 ">
+    <div class="card">
+      <div class="card-body">
+
+        <p-image  src="../../assets/web.jpg" loading="eager" alt="Photo by IIlya Pavlov" width="100%"></p-image>
+        <h5  class="card-title">Hotel Reservation Website</h5>
+        <i (click)="showDialog(1)" class="pi pi-window-maximize" ></i>
+        <p-dialog  header="Hotel Reservation Website" [(visible)]="visible1" [modal]="true" [style]="{ width: '50vw' }"  styleClass="custom-dialog" [draggable]="false" [resizable]="false">
+
+      
+          
+          <p class="m-0">
+            I have successfully developed a hotel reservation website using the MERN stack, incorporating EJS for frontend views and Bootstrap for responsive design. The website offers a seamless user experience with distinct sections, including a login page for user authentication, a signup page for new users, a contact us page for inquiries, a welcoming home page, a booking page for making reservations, and a secure payment page for processing transactions. Leveraging the power of Node.js and Express on the backend, MongoDB handles the data storage, ensuring user information, booking records, and payment details are efficiently managed. The website boasts essential features such as user registration, session management, booking processing, and robust security measures, including user authentication and data validation, to provide a secure and user-friendly platform for hotel reservations.
+          </p>
+
+          <ng-template pTemplate="footer">
+            <p-button icon="pi pi-check" (click)="visible1 = false" label="Ok" styleClass="p-button-text"></p-button>
+        </ng-template>
+      
+      </p-dialog>
+   
+      </div>
+    </div>
+  </div>
+    <div class="col-md-4 ">
+      <div class="card">
+        <div class="card-body">
+          <p-image src="../../assets/portfolio.jpg" loading="lazy" alt="Photo by Nikita Kachanovsky" width="100%" ></p-image>
+         <h5 class="card-title">Portfolio Website</h5>
+          <i (click)="showDialog(2)" class="pi pi-window-maximize" ></i>
+          <p-dialog header="Portfolio Website" [(visible)]="visible2" [modal]="true" [style]="{ width: '50vw' }" [draggable]="false" [resizable]="false">
+            <p class="m-0">
+              My portfolio website, crafted with Angular, offers a seamless and visually appealing user experience. Leveraging the power of PrimeNG for UI components and Bootstrap for responsive design, it provides a modern and user-friendly interface. The website comprises several sections, starting with a captivating home page, where you can find my CV and links to my social media profiles. The 'About Me' page offers insights into my background and expertise, while the 'Services' page details the skills and services I offer. The 'Latest Projects' page showcases my recent work, complete with descriptions and visuals. Additionally, a 'Contact Me' form powered by the Email.js library allows visitors to reach out, ensuring seamless communication. The footer, dynamically updated with Moment.js, automatically reflects the current year, adding a touch of professionalism to the site. Explore my portfolio to learn more about my skills and experiences!
+            </p>
+            <ng-template pTemplate="footer">
+              <p-button icon="pi pi-check" (click)="visible2 = false" label="Ok" styleClass="p-button-text"></p-button>
+          </ng-template>
+        </p-dialog>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 ">
+        <div class="card">
+          <div class="card-body">
+            <p-image src="../../assets/psd.jpg"   loading="lazy" alt="Photo by Luca Bravo" width="100%"  ></p-image>
+            <h5 class="card-title">PSD to HTML</h5>
+            <i (click)="showDialog(3)" class="pi pi-window-maximize" ></i>
+            <p-dialog header="PSD to HTML" [(visible)]="visible3" [modal]="true" [style]="{ width: '50vw' }" [draggable]="false" [resizable]="false">
+              <p class="m-0">
+                In my PSD to HTML project, I undertook the task of faithfully replicating a CV design using pure HTML and CSS, deliberately opting not to rely on Bootstrap or other responsive frameworks. The project showcased my commitment to precision in web development, where I meticulously translated a static design into a functional web page. By adhering to best practices in HTML and CSS, I ensured that the CV layout faithfully mirrored the original design. This project not only demonstrated my proficiency in front-end development but also highlighted my ability to craft pixel-perfect web pages. While the resulting CV may not be responsive, it serves as a testament to my dedication to maintaining the integrity of the original design while honing my coding skills.
+              </p>
+              <ng-template pTemplate="footer">
+                <p-button icon="pi pi-check" (click)="visible3= false" label="Ok" styleClass="p-button-text"></p-button>
+            </ng-template>
+          </p-dialog>
+          </div>
+        </div>
+      </div>
+    
+      <div class="col-md-4 ">
+        <div class="card">
+          <div class="card-body">
+            <p-image src="../../assets/database.jpg" loading="lazy" alt="Photo by Boitumelo" width="100%" ></p-image>
+            <h5 class="card-title">DataBase Hotel Management </h5>
+            <i (click)="showDialog(4)" class="pi pi-window-maximize" ></i>
+            <p-dialog header="DataBase Hotel Management" [(visible)]="visible4" [modal]="true" [style]="{ width: '50vw' }" [draggable]="false" [resizable]="false">
+              <p class="m-0">
+                In my project, I designed and implemented a comprehensive hotel management database system using Microsoft SQL Server. The project commenced with the creation of an Entity-Relationship Diagram (ERD), a critical step in defining the database structure and relationships between different entities such as guests, reservations, rooms, staff, and more. With the ERD as the blueprint, I proceeded to develop the actual database, carefully crafting tables, views, stored procedures, and triggers to manage data efficiently and ensure data integrity.
+
+                The hotel management database offers robust functionality, allowing for the seamless management of guest information, room reservations, billing, staff records, and other essential aspects of hotel operations. By utilizing MS SQL Server's capabilities, I ensured the database's scalability and performance, making it capable of handling the demands of a real-world hotel management system.
+                
+                This project not only honed my database design and SQL development skills but also demonstrated my ability to create a robust and organized system that can streamline hotel management operations, contributing to enhanced guest experiences and operational efficiency in the hospitality industry.
+              </p>
+              <ng-template pTemplate="footer">
+                <p-button icon="pi pi-check" (click)="visible4 = false" label="Ok" styleClass="p-button-text"></p-button>
+            </ng-template>
+          </p-dialog>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 ">
+        <div class="card">
+          <div class="card-body">
+            <p-image src="../../assets/default.jpg" loading="lazy" alt="Photo by Tianyi Ma" width="100%" ></p-image>
+            <h5 class="card-title">Special title treatment</h5>
+            <i (click)="showDialog(5)" class="pi pi-window-maximize" ></i>
+            <p-dialog header="Special title treatment" [(visible)]="visible5" [modal]="true" [style]="{ width: '50vw' }" [draggable]="false" [resizable]="false">
+          
+              <p class="m-0">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+              <ng-template pTemplate="footer">
+                <p-button icon="pi pi-check" (click)="visible5 = false" label="Ok" styleClass="p-button-text"></p-button>
+            </ng-template>
+          </p-dialog>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-md-4 ">
+        <div class="card">
+          <div class="card-body">
+            <p-image src="../../assets/default.jpg" loading="lazy" alt="Photo by Tianyi Ma" width="100%" >
+              
+            </p-image>
+            <h5 class="card-title">Special title treatment</h5>
+            <i (click)="showDialog(6)" class="pi pi-window-maximize" ></i>
+            <p-dialog header="Special title treatment" [(visible)]="visible6" [modal]="true" [style]="{ width: '50vw' }" [draggable]="false" [resizable]="false">
+              <p class="m-0">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+              <ng-template pTemplate="footer">
+                <p-button icon="pi pi-check" (click)="visible6= false" label="Ok" styleClass="p-button-text"></p-button>
+            </ng-template>
+          </p-dialog>
+          </div>
+        </div>
+      </div>
+  </div>
+
+
+ 
